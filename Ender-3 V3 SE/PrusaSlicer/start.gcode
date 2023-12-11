@@ -4,8 +4,8 @@ M104 S150 ; set temporary nozzle temp to prevent oozing during homing
 M220 S100 ;Reset Feedrate
 M221 S100 ;Reset Flowrate
 
-M140 S65 ; Set bed temp to 65
-M190 S65 ; wait for bed temp to stabilize
+M140 S60 ; Set bed temp to 65
+M190 S60 ; wait for bed temp to stabilize
 G28 ; home all axis and restore leveling
 @BEDLEVELVISUALIZER
 G29 ; Auto Level
